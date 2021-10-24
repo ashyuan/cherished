@@ -13,6 +13,7 @@ class UploadWidget extends Component {
                 multiple: true,
                 showCompletedButton: true,
                 thumbnails:true,
+                tags: ['memory'],
 
                 styles: {
                     palette: {

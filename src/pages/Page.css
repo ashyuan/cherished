@@ -59,7 +59,6 @@ section div {
 	}
 }
 
-<<<<<<< Updated upstream
 /* Tasks of the day styling */
 .todoList {
 	background: #e2c5d9;
@@ -103,10 +102,40 @@ button {
 	font-weight: bolder;
 	font-size: 20px;
 }
-=======
+
+/* Memory Styling */
+.memory-section {
+	position: top;
+	display: flex;
+	align-self: top;
+	justify-content: flex-start;
+}
+.memory-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 1em;
+}
 .upload-widget {
-	height: 50vh;
+	height: 10vh;
 	width: 100%;
 	padding: 1em;
 }
->>>>>>> Stashed changes
+
+.images {
+  	padding: 10px 10px;
+  	-webkit-box-shadow: 2px 8px 22px 1px rgba(0,0,0,0.06); 
+  	box-shadow: 2px 8px 22px 1px rgba(0,0,0,0.06);
+  }
+
+.upload-container {
+	background: #e2c5d9;
+	border-radius: 20px;
+	padding: 1em;
+	align-items: center;
+	justify-content: center;
+	max-width: 800px;
+	max-height: 400px;
+}
+

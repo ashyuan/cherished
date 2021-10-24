@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { useNav } from '../customHooks/useNav';
 import UploadWidget from "./memory-components/UploadWidget"
+import DisplayImages from "./memory-components/DisplayImages"
 import './Page.css';
 
 
@@ -14,15 +15,14 @@ const Memory = () => {
 	const memoryRef = useNav('Memory');
 
 	return (
-		<section ref={memoryRef} id='memoryContainer'>
-			{/* <img
-				src='https://source.unsplash.com/random/600x600/?nature,water'
-				alt='unsplash-img'
-			/> */}
-			<div>
-				<h3>MEMORY</h3>
-				<p>This is the memory section</p>
-				<div className="upload-widget"> <UploadWidget /> </div>
+		<section ref={memoryRef} id='memoryContainer' className="memory-section">
+			<div className="memory-container">
+				<h3>MEMORIES</h3>
+				<div className="upload-container"> 
+					<p>Upload your memories</p>
+					<div className="upload-widget"> <UploadWidget /> </div>
+					<div className="display"> <DisplayImages /> </div>
+				</div>
 			</div>
 		</section>
 	);
@@ -30,3 +30,6 @@ const Memory = () => {
 
 
 export default Memory;
+
+
+
