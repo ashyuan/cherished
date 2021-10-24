@@ -1,4 +1,4 @@
-# Untitled Project
+# Cherished
 Creators: Miranda Chan, Ashley Yuan
 
 ## Behind the project

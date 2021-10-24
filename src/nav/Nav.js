@@ -6,7 +6,7 @@ import './Nav.css';
 const Nav = () => {
 	return (
 		<nav>
-			<span class="appName"> ELC Hackathon </span>
+			<span class="appName"> Cherished </span>
 			<i class="fas fa-hand-holding-heart fa-3x"></i>
 			{navLinks.map(({ navLinkId, scrollToId, display}, idx) => (
 				<NavLink key={idx} navLinkId={navLinkId} scrollToId={scrollToId} display={display} />

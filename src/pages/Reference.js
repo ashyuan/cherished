@@ -12,13 +12,26 @@ const Reference = () => {
 
 	return (
 		<section ref={referenceRef} id='referenceContainer'>
-			<img
-				src='https://source.unsplash.com/random/600x600/?nature,water'
-				alt='unsplash-img'
-			/>
 			<div>
-				<h3>REFERENCE</h3>
-				<p>This is the reference section</p>
+				<h3>Reference <i class="fas fa-bookmark"></i></h3>
+				<p className="referenceParagraph">
+					Citations <br />
+					<a href="https://www.statista.com/statistics/248622/rates-of-leading-causes-of-death-in-the-us/">
+					[1] Top 10 leading cause of death in the US</a>
+					<br />
+					<a href="https://www.psychiatry.org/patients-families/alzheimers/what-is-alzheimers-disease">
+					[2] What is Alzheimer's Disease (Mental health of patients)</a>
+					<br />
+					<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1745-7599.2008.00342.x">
+					[3] Caregiver burden among dementia patient caregivers: a review of the literature</a>
+					<br/>
+					<br/>
+					Graphics <br />
+					<a href='https://www.freepik.com/vectors/people'>People vector created by freepik - www.freepik.com</a>
+					<br />
+					<a href='https://www.freepik.com/vectors/music'>Senior music vector created by pch.vector - www.freepik.com</a>
+		
+				</p>
 			</div>
 		</section>
 	);

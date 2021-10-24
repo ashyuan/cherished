@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNav } from '../customHooks/useNav';
 import './Page.css';
+import logo from '../pics/girl-icon.jpg'
 
 const Home = () => {
 	// useNav takes in a navLinkId and returns a ref
@@ -12,13 +13,14 @@ const Home = () => {
 
 	return (
 		<section ref={homeRef} id='homeContainer'>
-			<img
-				src='https://source.unsplash.com/random/600x600/?nature,water'
-				alt='unsplash-img'
-			/>
+			<img src= {logo} alt='a girl smiling' />
 			<div>
-				<h3>HOME</h3>
-				<p>This is the home page</p>
+				<h3>Your virtual caregiver <i class="far fa-heart"></i></h3>
+				<p className="homeIntro">
+					Sometimes we forget what things we need to do,
+					and the important people and moments around us. But don't worry.
+					Cherished can help, and let's walk through our daily lives together!
+				</p>
 			</div>
 		</section>
 	);
