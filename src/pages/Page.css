@@ -132,6 +132,7 @@ button {
 .upload-container {
 	background: #e2c5d9;
 	border-radius: 20px;
+	margin: 0 0 0 50px;
 	padding: 1em;
 	align-items: center;
 	justify-content: center;
