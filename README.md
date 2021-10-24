@@ -16,3 +16,4 @@ Current features include:
 The project was first inspired while participating in the ELC Hackathon on the theme of accessibility.
 This project is bootstrapped with `create-react-app`.
 The nav bar design was done following Daniel's tutorial: Check out https://github.com/shapirodaniel/single-page-nav
+The todo list was inspired by: https://codesandbox.io/s/oj3qm2zq06?file=/src/App.js:62-1862
