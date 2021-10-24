@@ -40,3 +40,5 @@ class DisplayImages extends Component {
 }
 
 export default DisplayImages
+
+/* References: https://cloudinary.gitbook.io/build-a-mini-netflix/build-a-mini-netflix-with-cloudinary/upload-videos */
