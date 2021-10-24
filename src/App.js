@@ -1,3 +1,4 @@
+import React from 'react';
 import { Nav } from './nav';
 import { Main } from './pages';
 import NavProvider from './context/NavContext';

@@ -59,6 +59,7 @@ section div {
 	}
 }
 
+<<<<<<< Updated upstream
 /* Tasks of the day styling */
 .todoList {
 	background: #e2c5d9;
@@ -102,3 +103,10 @@ button {
 	font-weight: bolder;
 	font-size: 20px;
 }
+=======
+.upload-widget {
+	height: 50vh;
+	width: 100%;
+	padding: 1em;
+}
+>>>>>>> Stashed changes
