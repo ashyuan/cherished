@@ -23,7 +23,10 @@ const Memory = () => {
 				<div className="upload-container"> 
 					<p>Upload your memories and those you cherish: </p>
 					<div className="upload-widget"> <UploadWidget /> </div>
-					<div className="display"> <DisplayImages /> </div>
+					
+				    <div className="row"> <DisplayImages /> 
+						
+					</div>
 				</div>
 			</div>
 		</section>

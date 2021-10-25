@@ -123,11 +123,11 @@ button {
 	padding: 1em;
 }
 
-.images {
+/* .images {
   	padding: 10px 10px;
   	-webkit-box-shadow: 2px 8px 22px 1px rgba(0,0,0,0.06); 
   	box-shadow: 2px 8px 22px 1px rgba(0,0,0,0.06);
-  }
+  } */
 
 .upload-container {
 	background: #e2c5d9;
@@ -139,4 +139,3 @@ button {
 	max-width: 800px;
 	max-height: 400px;
 }
-
